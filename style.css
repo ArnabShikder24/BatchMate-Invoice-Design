@@ -121,8 +121,14 @@ body {
 .gap-40 {
   gap: 40px;
 }
+.pt-0 {
+  padding-top: 0 !important;
+}
 .p-40 {
   padding: 40px;
+}
+.p-60 {
+  padding: 60px;
 }
 .px-10 {
   padding: 0 10px;
@@ -142,6 +148,52 @@ body {
 .py-40 {
   padding: 40px 0;
 }
+.py-60 {
+  padding: 60px 0;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-30 {
+  margin-bottom: 30px;
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mr-30 {
+  margin-right: 30px;
+}
+.mr-40 {
+  margin-right: 40px;
+}
+.mr-60 {
+  margin-right: 60px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.ml-40 {
+  margin-left: 40px;
+}
+
 .border-none {
   border: none !important;
 }
@@ -198,7 +250,7 @@ body {
 
 .A4-body {
   margin: 0;
-  padding: 20px;
+  padding: 30px;
   background: #ffffff;
   border-radius: 20px;
 }
@@ -208,7 +260,7 @@ body {
 }
 .in-span {
   font-size: 14px;
-  color: #5E6470;
+  color: #5E6470 !important;
 }
 .border-bottom-cu {
   border-bottom: 1px solid #D7DAE0;
@@ -236,6 +288,7 @@ body {
   font-weight: 500;
   color: #394E80;
   font-size: 14px;
+  margin-bottom: 8px;
 }
 
 .grid-item span:last-child {
@@ -247,6 +300,7 @@ body {
   display: flex;
   gap: 20px;
   font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .grid-last span:first-child {
