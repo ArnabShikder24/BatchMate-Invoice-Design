@@ -388,13 +388,13 @@ body {
 }
 
 .total-label {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
 }
 
 .total-value {
-  font-weight: bold;
-  font-size: 21px;
+  font-weight: 600;
+  font-size: 18px;
   text-align: right;
 }
 
