@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batch Tickests Invoices</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="Invoice-body">
+    <div class="A4-body">
+      <h1 class="in-title">TicketID</h1>
+      <div class="flex-between pb-0 border-bottom-cu pb-3">
+        <div>
+          <span style="color: #394E80;" class="d-block fw-bold in-span">Tria Products</span>
+          <span class="d-block in-span">www.triaproducts.com</span>
+          <span class="d-block in-span">info@triaproducts.com</span>
+          <span class="d-block in-span">+1 (204) 123-4567</span>
+        </div>
+        <div>
+          <span class="d-block in-span">Customer</span>
+          <span class="d-block in-span link-color-bold">Customer Name</span>
+          <span class="d-block in-span">Company Address</span>
+          <span class="d-block in-span">City, Country</span>
+          <span class="d-block in-span">+1 (204) 123 4567</span>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <span>Purchase Order</span>
+          <span>PurchaseOrder</span>
+        </div>
+        <div class="grid-item">
+          <span>Load Tested Air (%)</span>
+          <span>87</span>
+        </div>
+        <div class="grid-item">
+          <span>Slump</span>
+          <span>Slump</span>
+        </div>
+        <div class="grid-item">
+          <span>Temp (°C)</span>
+          <span>Temp</span>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-item">
+          <span>Total Previous Ticket</span>
+          <span>TotalPreviousTicket</span>
+        </div>
+        <div class="grid-item">
+          <span>Total including this load</span>
+          <span>TotalIncludingThisLoad</span>
+        </div>
+        <div class="grid-item">
+          <span>This load</span>
+          <span>ThisLoad</span>
+        </div>
+        <div class="grid-item">
+          <span>Mix ID</span>
+          <span>MixID</span>
+        </div>
+      </div>
+      <div class="grid-container border-none">
+        <div class="grid-last">
+          <span>Batch Start:</span>
+          <span>BatchStart slice(11, 19)</span>
+        </div>
+        <div class="grid-last">
+          <span>Batch End:</span>
+          <span>BatchEnd.slice(11, 19)</span>
+        </div>
+        <div class="grid-last">
+          <span>Batch Time:</span>
+          <span>BatchTime.slice(11, 19)</span>
+        </div>
+      </div>
+      <!-- main Table -->
+      <div class="invoice-table-container">
+        <table class="invoice-table">
+          <thead>
+            <tr>
+              <th>Material</th>
+              <th>Design</th>
+              <th>Trim</th>
+              <th>Target</th>
+              <th>Actual</th>
+              <th>%VAR</th>
+              <th>%Moisture</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>item Material</td>
+              <td>item Design</td>
+              <td>item Trim</td>
+              <td>item Target kg</td>
+              <td>item Actual kg</td>
+              <td>item VAR%</td>
+              <td>item Moisture%(272.69 l)</td>
+            </tr>
+            <tr>
+              <td>item Material</td>
+              <td>item Design</td>
+              <td>item Trim</td>
+              <td>item Target kg</td>
+              <td>item Actual kg</td>
+              <td>item VAR%</td>
+              <td>item Moisture%(272.69 l)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- End of the Table -->
+      <div class="grid-container-footer border-none">
+        <div>
+          <div class="grid-last">
+            <span>Total Load:</span>
+            <span>TotalIncludingThisLoad kg</span>
+          </div>
+          <div class="grid-last mt-1">
+            <span>Water in Truck:</span>
+            <span>11,725.31</span>
+          </div>
+          <div class="grid-last mt-1">
+            <span>Temper Water:</span>
+            <span>11,725.31</span>
+          </div>
+        </div>
+        <div>
+          <div class="grid-last">
+            <span>Design W/C Ratio:</span>
+            <span>11,725.31</span>
+          </div>
+          <div class="grid-last">
+            <span>Adjusted Water:</span>
+            <span>11,725.31</span>
+          </div>
+        </div>
+        <div>
+          <div class="grid-last">
+            <span>W/C Ratio:</span>
+            <span>11,725.31</span>
+          </div>
+          <div class="grid-last">
+            <span>Total Water:</span>
+            <span>11,725.31</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="fo">Caution: </p>
+      Caution
+    </div>
+  </div>
+</body>
+</html>
