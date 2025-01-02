@@ -3,9 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Estimates Invoice</title>
+  <title>Estimate Invoices</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div class="Invoice-body">
+    <div style="padding: 60px 30px;" class="flex-only-between">
+      <div class="">
+        <div>
+          <img style="width: 250px; margin-bottom: 15px;" src="./assets/Group.svg" alt="logo" class="logo">
+        </div>
+        <div>
+          <h1 class="in-title mb-5">Tria Products</h1>
+          <span class="in-span mb-5">www.triaproducts.com</span>
+          <span class="in-span mb-5">info@triaproducts.com</span>
+          <span class="in-span">+1 (204) 123-4567</span>
+        </div>
+      </div>
+      <div style="text-align: right;">
+        <h1 style="font-size: 36px;" class="Invoice-Stump link-color">ESTIMATE</h1>
+        <p style="color: #5E6470;">#Estimate-00000321</p>
+        <h1 style="color: #5E6470; font-size: 15px;text-align: right;">DARFT</h1>
+        <div style="text-align: right; margin-top: 15px;" >
+          <span class="in-span mb-5">Bill to:</span>
+          <span style="font-weight: bold;" class="in-span mb-5">Company Name</span>
+          <span class="in-span mb-5">info@triaproducts.com</span>
+          <span class="in-span">+1 (204) 123-4567</span>
+          <span style="font-size: 15px;margin-top: 15px;" class="in-span mb-5">Estimate Date: 23-10-2024</span>
+          <span style="font-size: 15px;" class="in-span mb-5">Expiry Date: 23-10-2024</span>
+        </div>
+      </div>
+    </div>
+    <div style="position: relative;" class="A4-body">
+      <!-- main Table -->
+      <div class="invoice-table-container mt-8">
+        <table class="invoice-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Item Description</th>
+              <th>Qty</th>
+              <th>Rate</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>RediMix Concrete<br><small>RediMix Concrete Description</small></td>
+              <td>100 yards</td>
+              <td>900.00</td>
+              <td>$1,065.00</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Portable Batch Plant Rental<br><small>Portable Batch Plant Rental Description</small></td>
+              <td>1 unit</td>
+              <td>2,000.00</td>
+              <td>$2,365.00</td>
+            </tr>                
+          </tbody>
+        </table>
+      </div>
+      <!-- End of the Table -->
+      <div style="position: absolute; bottom: 30px;" class="flex gap-20">
+        <p>Authorized Signature</p>
+        <div style="width: 300px; border-bottom: 1px solid #555555"></div>
+      </div>
+      <div class="summary">
+        <div class="label">Subtotal</div>
+        <div class="value">$3,430.00</div>
+        <div class="label">Tax (10%)</div>
+        <div class="value">$343.00</div>
+        <div class="label total-label">Total</div>
+        <div class="value total-value">$3,773.00</div>
+      </div>
+    </div>
+    <div style="padding: 30px;" class="flex-only-between mb-20">
+      <h1 class="Invoice-Stump link-color">Looking forward to your business.</h1>
+      <div>
+        <span style="color: #5E6470;" class="in-span mb-5">Powered by:</span>
+        <img style="width: 170px;" src="./assets/BatchMate.svg" alt="logo" class="logo">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
