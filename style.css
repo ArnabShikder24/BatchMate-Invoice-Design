@@ -96,22 +96,24 @@ body {
 
 
 /* common css */
-.flex-between {
-  display: flex;
+.grid-between {
+  display: grid;
+  grid-template-columns: auto auto; /* Adjust as per your design */
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* Grid equivalent */
 }
-.flex-only-between {
-  display: flex;
-  justify-content: space-between;
+.grid-only-between {
+  display: grid;
+  grid-template-columns: auto auto; /* Two columns for spacing */
+  justify-content: space-between; /* Ensures spacing between items */
 }
-.flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.grid-center {
+  display: grid;
+  place-items: center;
 }
-.flex {
-  display: flex;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 .gap-10 {
   gap: 10px;
@@ -316,7 +318,7 @@ body {
 }
 
 .grid-last {
-  display: flex;
+  display: grid;
   gap: 20px;
   font-size: 14px;
   margin-bottom: 15px;
